@@ -1,3 +1,4 @@
+
 # Puntos_De_transporte_Publico
 #Definición del problema.
 Trasporte.
@@ -16,6 +17,13 @@ Un servidor para poner la página web.
 Un dispositivo que tenga conexión a internet y navegador.
 
 #Objetivo general.
+El Objetivo General de nuestra aplicacion es que las personas de ciudad Juarez conozcan las diferentes rutas que tienen el servicio de transporte publico en nuestra ciudad, tambien dar informacion respecto al tiempo de llegada a ciertos puntos importantes, tambien mostrar el tiempo promedio del recorrido que hace cada camion.
+
+
+#Roles
+
+
+
 
 WBS.
 App para agregar las diferentes rutas recorridas por el transporte publico
