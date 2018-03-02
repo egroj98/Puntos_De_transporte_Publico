@@ -1,4 +1,5 @@
 
+
 # Puntos_De_transporte_Publico
 #Definición del problema.
 Trasporte.
@@ -21,6 +22,10 @@ El Objetivo General de nuestra aplicacion es que las personas de ciudad Juarez c
 
 
 #Roles
+Administrador: Oscar Favela
+Programadores: Jhonatan Orozco y Jorge Barrera
+Calidad: Emanuel Saenz
+Tester: Joel Leon
 
 
 
