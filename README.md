@@ -33,3 +33,4 @@ Tester: Joel Leon
 # *WBS.*
 ! [Imagen de WBS] (https://github.com/egroj98/Puntos_De_transporte_Publico/blob/master/Imagenes/WBS.PNG)
 App para agregar las diferentes rutas recorridas por el transporte publico
+:+1:
