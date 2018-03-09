@@ -2,7 +2,7 @@
 
 # Puntos_De_transporte_Publico
 # Definición del problema.
-Trasporte.
+- Trasporte.
 Nuestra problemática trata de los tiempos que tarda el trasporte público en llegar a su destino, así como las rutas de viaje que realiza cada línea de transporte.
 Ya que varias personas desconocen este tipo de información y se les dificulta decidir que transporte llega a su destino, así como sus tiempos.
 
@@ -22,16 +22,16 @@ El Objetivo General de nuestra aplicacion es que las personas de ciudad Juarez c
 
 
 # Roles
-Administrador: Oscar Favela
-Programadores: Jhonatan Orozco y Jorge Barrera
-Calidad: Emanuel Saenz
-Tester: Joel Leon
+- Administrador: Oscar Favela
+- Programadores: Jhonatan Orozco y Jorge Barrera
+- Calidad: Emanuel Saenz
+- Tester: Joel Leon
 
 
 
 
 # *WBS.*
 
-! [Imagen de WBS] (https://github.com/egroj98/Puntos_De_transporte_Publico/blob/master/Imagenes/WBS.PNG?raw=true)
+! [Imagen de WBS] (https://raw.githubusercontent.com/egroj98/Puntos_De_transporte_Publico/master/Imagenes/WBS.PNG)
 App para agregar las diferentes rutas recorridas por el transporte publico
 :+1:
