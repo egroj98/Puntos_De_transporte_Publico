@@ -1,5 +1,4 @@
 
-
 # Puntos_De_transporte_Publico
 # Definición del problema.
 - Trasporte.
@@ -32,6 +31,6 @@ El Objetivo General de nuestra aplicacion es que las personas de ciudad Juarez c
 
 # *WBS.*
 
-! [Imagen de WBS] (https://raw.githubusercontent.com/egroj98/Puntos_De_transporte_Publico/master/Imagenes/WBS.PNG)
+! [Imagen de WBS] (Puntos_De_transporte_Publico/Imagenes/WBS.PNG)
 App para agregar las diferentes rutas recorridas por el transporte publico
 :+1:
