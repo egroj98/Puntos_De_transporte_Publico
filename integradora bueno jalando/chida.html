@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>integradora</title>
+    <style>
+      
+      #map {
+        height: 100%;
+      }
+     
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: {
+      lat: 31.630532,
+      lng: -106.392165
+    }
+  });
+
+  setMarkers(map);
+}
+
+var beaches = [
+  ['CLICK PARA VER MAS INFORMACION POR ESTE PUNTO PASAN VARIAS RUTAS ', 31.731260, -106.479531, 4, '<div id="content"><h1 id="firstHeading" class="firstHeading">LA CHAVENA </h1><div id="bodyContent"><p>TE ENCUENTRAS EN LA CHAVENA DALE CLICK AL LINK PARA VER LAS RUTAS SERCANAS A TU HUBICACION <a href="file:///C:/Users/jonathan/Desktop/integradora%20bueno%20jalando/chave%C3%B1a2.html">RUTAS</a></p></div></div>'],
+  
+  
+  
+ 
+];
+
+
+var beache = [
+ 
+  ['CLICK PARA VER MAS INFORMACION POR ESTE PUNTO PASAN VARIAS RUTAS ', 31.624602, -106.393956, 3, '<div id="content"><h1 id="firstHeading" class="firstHeading">LAS TORRES</h1><div id="bodyContent"><p>TE ENCUENTRAS EN LAS TORRES DALE CLICK AL LINK PARA VER LAS RUTAS SERCANAS A TU HUBICACION  <a href="file:///C:/Users/jonathan/Desktop/integradora%20bueno%20jalando/lastorres2.html">tus rutas</a></p></div></div>'],
+ 
+];
+
+var beacher = [
+ 
+  ['CLICK PARA VER MAS INFORMACION POR ESTE PUNTO PASAN VARIAS RUTAS  ', 31.599323, -106.377424, 2, '<div id="content"><h1 id="firstHeading" class="firstHeading">MESA CENTRAL</h1><div id="bodyContent"><p>TE ENCUENTRAS EN MESA CENTRAL DALE CLICK AL LINK PARA VER LAS RUTAS SERCANAS A TU HUBICACION  <a href="file:///C:/Users/jonathan/Desktop/integradora%20bueno%20jalando/mesacentral2.html">tus rutas</a></p></div></div>'],
+ 
+];
+
+var bet = [
+ 
+ 
+  ['CLICK PARA VER MAS INFORMACION POR ESTE PUNTO PASAN VARIAS RUTAS ', 31.692619, -106.481559, 3, '<div id="content"><h1 id="firstHeading" class="firstHeading">AZTECAS</h1><div id="bodyContent"><p>TE ENCUENTRAS EN AZTECAS DALE CLICK AL LINK PARA VER LAS RUTAS SERCANAS A TU HUBICACION  <a href="file:///C:/Users/jonathan/Desktop/integradora%20bueno%20jalando/aztecas2.html">tus rutas</a></p></div></div>'],
+ 
+];
+
+
+
+
+function setMarkers(map) {
+
+  for (var i = 0; i < beaches.length; i++) {
+    var beach = beaches[i];
+
+  
+
+    var marker = new google.maps.Marker({
+      position: {
+        lat: beach[1],
+        lng: beach[2]
+      },
+      map: map,
+
+
+      title: beach[0],
+      zIndex: beach[3]
+    });
+      var infowindow = new google.maps.InfoWindow({
+      content: beach[4]
+    });
+   
+
+    marker.addListener('click', function() {
+      infowindow.open(map, marker);
+    });
+    
+    
+  for (var o = 0; o < beaches.length; o++) {
+    var beac = beache[o];
+
+  
+
+    var marke = new google.maps.Marker({
+      position: {
+        lat: beac[1],
+        lng: beac[2]
+      },
+      map: map,
+
+
+      title: beac[0],
+      zIndex: beac[3]
+    });
+      var info = new google.maps.InfoWindow({
+      content: beac[4]
+    });
+   
+
+    marke.addListener('click', function() {
+      info.open(map, marke);
+    });
+
+
+
+     
+  for (var j = 0; j < beaches.length; j++) {
+    var bea = beacher[j];
+
+  
+
+    var mark = new google.maps.Marker({
+      position: {
+        lat: bea[1],
+        lng: bea[2]
+      },
+      map: map,
+
+
+      title: bea[0],
+      zIndex: bea[3]
+    });
+      var infor = new google.maps.InfoWindow({
+      content: bea[4]
+    });
+   
+
+    mark.addListener('click', function() {
+      infor.open(map, mark);
+    });
+
+
+   
+
+     
+  for (var l = 0; l < beaches.length; l++) {
+    var be = bet[l];
+
+  
+
+    var mar = new google.maps.Marker({
+      position: {
+        lat: be[1],
+        lng: be[2]
+      },
+      map: map,
+
+
+      title: be[0],
+      zIndex: be[3]
+    });
+      var inf = new google.maps.InfoWindow({
+      content: be[4]
+    });
+   
+
+    mar.addListener('click', function() {
+      inf.open(map, mar);
+    });
+
+
+
+
+
+  }
+}
+}
+}
+}
+      
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9KslIFVbWR_KsUETOkl154A0ZUUqD3hY&callback=initMap">
+    </script>
+  </body>
+</html>
+
